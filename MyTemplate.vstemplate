@@ -1,0 +1,23 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>GLUTProject</Name>
+    <Description>A barebones OpenGL project template using glut-3.7.6 library for windowing.</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>GLUTProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="GLUTProject.vcxproj" File="GLUTProject.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$projectname$.vcxproj.filters">GLUTProject.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="main.cpp">main.cpp</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
